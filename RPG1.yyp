@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "658f2407-ac3b-454e-bb16-7ff236501138",
+            "Value": {
+                "id": "baeea40f-3cee-4a2f-83e0-e2cf61824947",
+                "resourcePath": "objects\\smiley\\smiley.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6c928a18-ecc5-4c18-b75f-19bf569fc329",
             "Value": {
                 "id": "785006d4-dbbb-43c1-90b5-79bb63d81e0c",
