@@ -1,3 +1,6 @@
+
+randomize();
+
 globalvar map;
 
 //create node!

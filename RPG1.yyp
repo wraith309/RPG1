@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "c6194c4f-eb37-477d-beb9-0a61f1ca13dd",
+            "Value": {
+                "id": "cad26f68-ba7a-4cfc-93fa-83f8274b5dac",
+                "resourcePath": "objects\\oSonny\\oSonny.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "2eec45e2-77f4-49ff-81c1-cd4490385bad",

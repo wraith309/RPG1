@@ -10,21 +10,6 @@ if(gridX < 0 || gridY < 0 || gridX >= room_width/GRID_SIZE || gridY >= room_heig
 	hoverNode = map[gridX, gridY];
 }
 
-
-if(mouse_check_button_pressed(mb_left)){
-	if(hoverNode.occupant != noone){
-		if (hoverNode.occupant != selectedActor) {
-		    selectedActor = hoverNode.occupant;
-			selectedActor.actions = 2;
-			movement_range(hoverNode, selectedActor.move, selectedActor.actions);
-		}
-	}else{
-		selectedActor = noone;
-		wipe_nodes();
-	}
-	
-}
-
 if(mouse_check_button_pressed(mb_right)){
 	if(selectedActor != noone && hoverNode.moveNode){
 		current = hoverNode;
@@ -80,9 +65,6 @@ if(mouse_check_button_pressed(mb_right)){
 			wipe_nodes();
 		}
 		
-	}else{	//clicked on an invalid spot to move, deselect actor
-		selectedActor = noone;
-		wipe_nodes();
 	}
 	
 }

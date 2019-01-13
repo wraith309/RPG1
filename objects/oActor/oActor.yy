@@ -173,6 +173,34 @@
             "value": "8",
             "varName": "moveSpeed",
             "varType": 0
+        },
+        {
+            "id": "8c3ce5ef-ce9c-45a7-913b-efe350d43329",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "initiative",
+            "varType": 1
+        },
+        {
+            "id": "21c028c4-5138-4740-9ce7-49c86ebb2945",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "initRoll",
+            "varType": 1
         }
     ],
     "solid": false,
