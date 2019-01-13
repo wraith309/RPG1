@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "13533664-103d-492d-98f6-afa8ba470391",
+            "Value": {
+                "id": "ea0fff07-5953-403a-9d2d-b9c117143782",
+                "resourcePath": "objects\\oRizzo\\oRizzo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a32c4bb-1381-4736-83cd-2761c922d725",
             "Value": {
                 "id": "c8a1a919-4c79-44d9-a1b7-7e00ad246401",

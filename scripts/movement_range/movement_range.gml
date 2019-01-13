@@ -106,6 +106,8 @@ for (ii = 0; ii < ds_list_size(closed); ii += 1) {
 	colour_move_node(current, argument1, argument2);
 }
 
+start.moveNode = false;
+
 //DESTROY closed list!!!!!!
 ds_list_destroy(closed);
 
