@@ -71,9 +71,16 @@ switch(state){
 			currentActor = ds_list_find_value(turnOrder, turnCounter);
 			
 			currentActor.actions = 2;
-			oCursor.selectedActor = currentActor;
 			
-			movement_range(map[currentActor.gridX, currentActor.gridY], currentActor.move, currentActor.actions);
+			//only pass off actions and cursor control if actor is BLUE_ARMY
+			//otherwise set flash variable to true and set alarm
+			if(currentActor.army == BLUE_ARMY){
+				oCursor.selectedActor = currentActor;
+				movement_range(map[currentActor.gridX, currentActor.gridY], currentActor.move, currentActor.actions);
+			}else{
+				currentActor.flash = true;
+				currentActor.alarm[0] = 30;
+			}
 		}
 		
 		
